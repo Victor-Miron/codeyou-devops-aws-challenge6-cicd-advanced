@@ -52,5 +52,5 @@ jobs:
           run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker
         - name: Push Docker Image
           run: docker push ${{ secrets.DOCKER_USERNAME }}/typ
-          
+
     
